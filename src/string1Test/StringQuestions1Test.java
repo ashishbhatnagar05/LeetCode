@@ -43,10 +43,16 @@ public class StringQuestions1Test {
 		String[] stringArray = stringQuestions1.getSubStrings("abcdef");
 		System.out.println(Arrays.asList(stringArray));
 	}
-	//@Ignore
+	@Ignore
 	@Test
 	public void countPalindromeSubstringsTest() {
 		int count = stringQuestions1.countPalindromeSubstringsOptimized("aaa");
 		System.out.println(count);
+	}
+	//@Ignore
+	@Test
+	public void lengthOfLastWordTest() {
+		int index = stringQuestions1.lengthOfLastWord("a ");
+		System.out.println(index);
 	}
 }

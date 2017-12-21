@@ -106,4 +106,8 @@ public class StringQuestions1 {
 			return true;
 		return false;
 	}
+
+	public int lengthOfLastWord(String str) {
+		return str.trim().length()-str.trim().lastIndexOf(" ")-1;
+	}
 }
