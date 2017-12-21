@@ -84,7 +84,7 @@ public class StringQuestions1 {
 		return resultList;
 	}
 
-	public int countPalindromeSubstringsUsingMap(String str) {
+	public int countPalindromeSubstringsOptimized(String str) {
 		int n = str.length();
 		int count = 0;
 		for (int i = 0; i <= n; i++) {

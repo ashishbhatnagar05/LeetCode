@@ -46,7 +46,7 @@ public class StringQuestions1Test {
 	//@Ignore
 	@Test
 	public void countPalindromeSubstringsTest() {
-		int count = stringQuestions1.countPalindromeSubstringsUsingMap("aaa");
+		int count = stringQuestions1.countPalindromeSubstringsOptimized("aaa");
 		System.out.println(count);
 	}
 }
